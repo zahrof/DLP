@@ -1,7 +1,7 @@
 java -jar 
-/ILP_SU-master/Java/jars/antlr-4.4-complete.jar 
-/ILP_SU-master/ANTLRGrammars/ILPMLgrammar1.g4 
--o /ILP_SU-master/Java/src/com/paracamplus/ilp1/ilp1tme1/test
+/home/zahrof/Documents/master/semestre1/DLP/workspace/ILP_SU-master/Java/jars/antlr-4.4-complete.jar
+/home/zahrof/Documents/master/semestre1/DLP/workspace/ILP_SU-master/Java/src/com/paracamplus/ilp1/ilp1tme2/ex1/ILPMLgrammar1tme2.g4
+-o /home/zahrof/Documents/master/semestre1/DLP/workspace/ILP_SU-master/target/generated-sources/antlr4
 
 génére les interfaces et tout ce qu'il faut pour reconanitre la grammaire ILPgrammar1
 dans le repertoire /ILP_SU-master/Java/src/com/paracamplus/ilp1/ilp1tme1/test
