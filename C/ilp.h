@@ -358,6 +358,7 @@ extern struct ILP_Class ILP_object_Exception_class;
 extern struct ILP_Field ILP_object_super_field;
 extern struct ILP_Field ILP_object_defining_class_field;
 extern struct ILP_Field ILP_object_value_field;
+
 extern struct ILP_Method ILP_object_print_method;
 extern struct ILP_Method ILP_object_classOf_method;
 

@@ -1,0 +1,10 @@
+Leaked composite object at 0x56030ce5ffe0 (tests/thread_leak_test.c:29, sz=4, NORMAL)
+
+Leaked composite object at 0x56030ce5ff20 (tests/thread_leak_test.c:29, sz=4, NORMAL)
+
+Leaked composite object at 0x56030ce5fef0 (tests/thread_leak_test.c:29, sz=4, NORMAL)
+
+Leaked composite object at 0x56030ce5fec0 (tests/thread_leak_test.c:29, sz=4, NORMAL)
+
+Leaked composite object at 0x56030ce5ffe0 (tests/thread_leak_test.c:29, sz=4, NORMAL)
+

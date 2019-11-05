@@ -31,7 +31,6 @@ import com.paracamplus.ilp1.parser.ParseException;
 import com.paracamplus.ilp1.ilp1tme2.ex1.ILPMLParser;
 import com.paracamplus.ilp1.parser.xml.IXMLParser;
 import com.paracamplus.ilp1.parser.xml.XMLParser;
-import com.paracamplus.ilp2.tme3.exo1.interpreter.GlobalVariableStuff;
 
 @RunWith(Parameterized.class)
 public class TestInterpreter extends com.paracamplus.ilp1.interpreter.test.InterpreterTest{
