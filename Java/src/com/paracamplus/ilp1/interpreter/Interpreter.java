@@ -51,7 +51,6 @@ implements IASTvisitor<Object, ILexicalEnvironment, EvaluationException> {
         return globalVariableEnvironment;
     }
     
-    // 
     
     public Object visit(IASTprogram iast, ILexicalEnvironment lexenv) 
             throws EvaluationException {

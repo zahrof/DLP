@@ -110,8 +110,8 @@ public class ILPMLListener implements ILPMLgrammar1tme2Listener {
 
 	@Override 
 	public void exitProg(ProgContext ctx) { 
-		System.out.println("Nbre Constantes: "); 
-		System.out.println(this.nbreConstantes); 
+		//System.out.println("Nbre Constantes: "); 
+		//System.out.println(this.nbreConstantes); 
 		IASTexpression e = factory.newSequence(toExpressions(ctx.exprs));
 		ctx.node = factory.newProgram(e);
 	}

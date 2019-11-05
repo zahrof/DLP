@@ -38,7 +38,7 @@ public class TestInterpreter extends com.paracamplus.ilp1.interpreter.test.Inter
     
    
     
-	   protected static String[] samplesDirName = { "SamplesILP1","SamplesTME1","SamplesTME2" }; 
+	   protected static String[] samplesDirName = { "SamplesILP1","SamplesTME1" }; 
 	    protected static String pattern = ".*";
 	    protected static String XMLgrammarFile = "XMLGrammars/grammar1.rng";
 
