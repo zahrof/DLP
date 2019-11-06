@@ -125,6 +125,17 @@ struct ILP_Class ILP_object_String_class = {
            ILP_classOf } } }
 };
 
+struct ILP_Class ILP_object_Vector_class = {
+     &ILP_object_Class_class,
+     { { &ILP_object_Object_class,
+         "Vector",
+         0,
+         NULL,
+         2,
+         { ILP_print,
+           ILP_classOf } } }
+};
+
 struct ILP_Class ILP_object_Exception_class = {
      &ILP_object_Class_class,
      { { &ILP_object_Object_class,
@@ -636,6 +647,20 @@ ILP_make_string (char *s)
      result->_content.asString._size = size;
      memmove(result->_content.asString.asCharacter, s, size);
      return result;
+}
+
+ILP_Object
+ILP_make_vector (ILP_Object o1, ILP_Object o2)
+{
+	int size = o1->_content.asInteger;
+	    ILP_Object result = ILP_AllocateVector(size);
+	    result->_content.asVector._size = size;
+	    int i=0;
+	    while(i<size){
+	      memmove((&(result->_content.asVector.vect[0]))+i, &o2, sizeof(struct ILP_Object));
+	      i++;
+	    }
+	    return result;
 }
 
 /** String primitives */

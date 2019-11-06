@@ -1,12 +1,12 @@
 Switched to incremental mode
 Emulating dirty bits with mprotect/signals
 Completed 6 tests
-Allocated 11935508 collectable objects
+Allocated 11928851 collectable objects
 Allocated 1218 uncollectable objects
-Allocated 7496331 atomic objects
-Allocated 137640 stubborn objects
-Finalized 13534/13534 objects - finalization is probably ok
-Total number of bytes allocated is 650343144
-Final heap size is 47247360 bytes
+Allocated 7493224 atomic objects
+Allocated 137677 stubborn objects
+Finalized 13446/13446 objects - finalization is probably ok
+Total number of bytes allocated is 653188312
+Final heap size is 56745984 bytes
 Collector appears to work
-Completed 346 collections
+Completed 342 collections

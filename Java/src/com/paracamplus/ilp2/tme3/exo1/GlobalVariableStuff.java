@@ -15,5 +15,7 @@ public class GlobalVariableStuff {
         env.addGlobalVariableValue(new Print(out));
         env.addGlobalVariableValue(new Newline(out));
         env.addGlobalVariableValue(new Sinus());
+        env.addGlobalVariableValue(new makeVector());
+        env.addGlobalVariableValue(new vectorLength());
     }
 }

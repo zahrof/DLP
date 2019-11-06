@@ -3,8 +3,8 @@
 #include "ilp.h" 
 
 /* Global variables */ 
-ILP_Object sinus;
-ILP_Object pi;
+ILP_Object makeVector;
+ILP_Object m;
 
 /* Global prototypes */ 
 
@@ -18,12 +18,12 @@ ILP_Object ilp_program ()
 { 
   ILP_Object ilptmp2; 
   ILP_Object ilptmp3; 
-ilptmp2 = ILP_PI; 
-ilptmp3 = ILP_Integer2ILP(2); 
-ilptmp1 = ILP_Divide(ilptmp2, ilptmp3);
-} 
-return ILP_sinus(ilptmp1);
+ilptmp2 = ILP_Integer2ILP(4); 
+ilptmp3 =  ILP_String2ILP("toto"); 
+ilptmp1 = ILP_make_vector(ilptmp2, ilptmp3);
 }
+return (m = ilptmp1); 
+} 
 
 } 
 
