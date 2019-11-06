@@ -1,7 +1,7 @@
-prefix=/home/zahrof/Documents/master/semestre1/DLP/workspace/ILP_SU-master/C/gc-7.2/libatomic_ops-install
+prefix=/home/groku/Desktop/DLP/GitClaire/DLP/C/gc-7.2/libatomic_ops-install
 exec_prefix=${prefix}
-top_builddir=/home/zahrof/Documents/master/semestre1/DLP/workspace/ILP_SU-master/C/gc-7.2/libatomic_ops
-top_srcdir=/home/zahrof/Documents/master/semestre1/DLP/workspace/ILP_SU-master/C/gc-7.2/libatomic_ops
+top_builddir=/home/groku/Desktop/DLP/GitClaire/DLP/C/gc-7.2/libatomic_ops
+top_srcdir=/home/groku/Desktop/DLP/GitClaire/DLP/C/gc-7.2/libatomic_ops
 
 Name: The atomic_ops library (uninstalled)
 Description: Atomic memory update operations

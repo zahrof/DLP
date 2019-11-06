@@ -17,7 +17,7 @@ old_library='libstaticrootslib.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/zahrof/git/DLP/Java/src/com/paracamplus/ilp2/tme3/exo1/C/gc-7.2/libgc.la -lpthread -ldl'
+dependency_libs=' /home/groku/Desktop/DLP/GitClaire/DLP/Java/src/com/paracamplus/ilp2/tme3/exo1/C/gc-7.2/libgc.la -lpthread -ldl'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -39,4 +39,4 @@ dlpreopen=''
 
 # Directory that this library needs to be installed in:
 libdir='/nowhere'
-relink_command="(cd /home/zahrof/git/DLP/Java/src/com/paracamplus/ilp2/tme3/exo1/C/gc-7.2; /bin/bash \"/home/zahrof/git/DLP/Java/src/com/paracamplus/ilp2/tme3/exo1/C/gc-7.2/libtool\"  --tag CC --mode=relink gcc -fexceptions -g -O2 -fno-strict-aliasing -version-info 1:3:0 -no-undefined -rpath /nowhere -o libstaticrootslib.la tests/staticrootslib.lo ./libgc.la @inst_prefix_dir@)"
+relink_command="(cd /home/groku/Desktop/DLP/GitClaire/DLP/Java/src/com/paracamplus/ilp2/tme3/exo1/C/gc-7.2; /bin/bash \"/home/groku/Desktop/DLP/GitClaire/DLP/Java/src/com/paracamplus/ilp2/tme3/exo1/C/gc-7.2/libtool\"  --tag CC --mode=relink gcc -fexceptions -g -O2 -fno-strict-aliasing -version-info 1:3:0 -no-undefined -rpath /nowhere -o libstaticrootslib.la tests/staticrootslib.lo ./libgc.la @inst_prefix_dir@)"

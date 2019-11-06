@@ -1,4 +1,4 @@
-prefix=/home/zahrof/Documents/master/semestre1/DLP/workspace/ILP_SU-master/C/gc-7.2/libatomic_ops-install
+prefix=/home/groku/Desktop/DLP/GitClaire/DLP/C/gc-7.2/libatomic_ops-install
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

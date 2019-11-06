@@ -403,7 +403,7 @@ extern ILP_Object ILP_sinus (ILP_Object o);
 extern ILP_Object ILPm_print (ILP_Closure useless, ILP_Object self);
 extern ILP_Object ILP_classOf (ILP_Object self);
 extern ILP_Object ILPm_classOf (ILP_Closure useless, ILP_Object self);
-
+extern ILP_Object ILP_make_vector(ILP_Object o1, ILP_Object o2);
 extern ILP_Object ILP_malloc (int size, ILP_Class class);
 extern ILP_Object ILP_make_instance (ILP_Class class);
 extern int /* boolean */ ILP_is_a (ILP_Object o, ILP_Class class);
