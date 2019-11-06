@@ -20,18 +20,6 @@ public class vectorGet extends BinaryPrimitive {
 
 	@Override
 	public Object apply (Object arg1, Object arg2) throws EvaluationException {
-		if (arg1 instanceof BigInteger) {
-			int t = ((BigInteger) arg1).intValue(); 
-			Vector<Object> a = new Vector<Object>();
-			
-			for (int i=0; i< t; i++) {
-				a.add(arg2); 
-			}return a; 
-		}
-			
-		else {
-			  String msg = "The length should be an Integer";
-              throw new EvaluationException(msg); 
-		}
+		return ((Object[])arg1)[((BigInteger)arg2).intValue()];
 	}
 }

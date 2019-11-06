@@ -1,0 +1,2 @@
+m=makeVector(4,"toto")
+vectorGet(m,2)
