@@ -1,4 +1,4 @@
-package com.paracamplus.ilp2.tme3.exo1;
+package com.paracamplus.ilp2.tme3;
 
 import java.io.Writer;
 import java.math.BigDecimal;

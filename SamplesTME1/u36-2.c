@@ -8,16 +8,10 @@
 ILP_Object ilp_program () 
 { 
 { 
-  ILP_Object ilptmp97; 
-ilptmp97 = ILP_TRUE; 
-  if ( ILP_isEquivalentToTrue(ilptmp97 ) ) {
-return ILP_Float2ILP(1.5); 
-
-  } else {
-return ILP_FALSE; 
-
-  }
-}
+  ILP_Object ilptmp254; 
+ilptmp254 = ILP_FALSE; 
+return ILP_Not(ilptmp254);
+} 
 
 } 
 

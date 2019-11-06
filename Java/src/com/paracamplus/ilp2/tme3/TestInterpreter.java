@@ -1,4 +1,4 @@
-package com.paracamplus.ilp2.tme3.exo1;
+package com.paracamplus.ilp2.tme3;
 
 /* *****************************************************************
  * ILP9 - Implantation d'un langage de programmation.
@@ -25,7 +25,6 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 import com.paracamplus.ilp1.interpreter.GlobalVariableEnvironment;
-import com.paracamplus.ilp2.tme3.exo1.GlobalVariableStuff;
 import com.paracamplus.ilp1.interpreter.OperatorEnvironment;
 import com.paracamplus.ilp1.interpreter.OperatorStuff;
 import com.paracamplus.ilp1.interpreter.interfaces.EvaluationException;
@@ -38,6 +37,7 @@ import com.paracamplus.ilp2.interfaces.IASTfactory;
 import com.paracamplus.ilp2.interpreter.Interpreter;
 import com.paracamplus.ilp2.parser.ilpml.ILPMLParser;
 import com.paracamplus.ilp2.parser.xml.XMLParser;
+import com.paracamplus.ilp2.tme3.GlobalVariableStuff;
 
 
 @RunWith(Parameterized.class)
