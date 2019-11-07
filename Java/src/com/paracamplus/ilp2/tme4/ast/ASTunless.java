@@ -1,9 +1,10 @@
-package com.paracamplus.ilp2.tme4;
+package com.paracamplus.ilp2.tme4.ast;
 
 import com.paracamplus.ilp1.ast.ASTexpression;
 import com.paracamplus.ilp1.interfaces.IASTexpression;
 import com.paracamplus.ilp1.interfaces.IASTvisitable;
-import com.paracamplus.ilp2.tme4.IASTvisitor;
+import com.paracamplus.ilp2.tme4.interfaces.IASTunless;
+import com.paracamplus.ilp2.tme4.interfaces.IASTvisitor;
 
 public class ASTunless extends ASTexpression implements IASTunless,IASTvisitable {
 

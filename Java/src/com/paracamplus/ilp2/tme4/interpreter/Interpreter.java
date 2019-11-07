@@ -4,12 +4,12 @@
  * See http://mooc.paracamplus.com/ilp9
  * GPL version 3
  ***************************************************************** */
-package com.paracamplus.ilp2.tme4;
+package com.paracamplus.ilp2.tme4.interpreter;
 
 
 import com.paracamplus.ilp2.interfaces.IASTprogram;
-import com.paracamplus.ilp2.tme4.IASTvisitor;
-
+import com.paracamplus.ilp2.tme4.interfaces.IASTunless;
+import com.paracamplus.ilp2.tme4.interfaces.IASTvisitor;
 import com.paracamplus.ilp1.interpreter.interfaces.EvaluationException;
 import com.paracamplus.ilp1.interpreter.interfaces.IGlobalVariableEnvironment;
 import com.paracamplus.ilp1.interpreter.interfaces.ILexicalEnvironment;

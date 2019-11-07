@@ -4,7 +4,7 @@
  * See http://mooc.paracamplus.com/ilp9
  * GPL version 3
  ***************************************************************** */
-package com.paracamplus.ilp2.tme4;
+package com.paracamplus.ilp2.tme4.interpreter.test;
 
 
 
@@ -25,10 +25,10 @@ import com.paracamplus.ilp1.interpreter.interfaces.IGlobalVariableEnvironment;
 import com.paracamplus.ilp1.interpreter.interfaces.IOperatorEnvironment;
 import com.paracamplus.ilp1.interpreter.test.InterpreterRunner;
 import com.paracamplus.ilp1.parser.xml.IXMLParser;
-import com.paracamplus.ilp2.tme4.ASTfactory;
-import com.paracamplus.ilp2.tme4.IASTfactory;
-import com.paracamplus.ilp2.tme4.Interpreter;
-import com.paracamplus.ilp2.tme4.ILPMLParser;
+import com.paracamplus.ilp2.tme4.ast.ASTfactory;
+import com.paracamplus.ilp2.tme4.interfaces.IASTfactory;
+import com.paracamplus.ilp2.tme4.interpreter.Interpreter;
+import com.paracamplus.ilp2.tme4.parser.ILPMLParser;
 import com.paracamplus.ilp2.parser.xml.XMLParser;
 
 

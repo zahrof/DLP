@@ -1,4 +1,4 @@
-package com.paracamplus.ilp2.tme4;
+package com.paracamplus.ilp2.tme4.parser;
 
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
@@ -6,8 +6,9 @@ import org.antlr.v4.runtime.tree.ParseTreeWalker;
 
 import antlr4.ILPMLgrammar2tme4Lexer;
 import antlr4.ILPMLgrammar2tme4Parser;
-import com.paracamplus.ilp2.tme4.IASTfactory;
+
 import com.paracamplus.ilp2.interfaces.IASTprogram;
+import com.paracamplus.ilp2.tme4.interfaces.IASTfactory;
 import com.paracamplus.ilp1.parser.ParseException;
 
 

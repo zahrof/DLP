@@ -1,4 +1,4 @@
-package com.paracamplus.ilp2.tme4;
+package com.paracamplus.ilp2.tme4.ast;
 
 import com.paracamplus.ilp1.interfaces.IASTalternative;
 import com.paracamplus.ilp1.interfaces.IASTbinaryOperation;
@@ -17,7 +17,8 @@ import com.paracamplus.ilp1.interfaces.IASTvariable;
 import com.paracamplus.ilp1.interpreter.interfaces.EvaluationException;
 import com.paracamplus.ilp2.interfaces.IASTassignment;
 import com.paracamplus.ilp2.interfaces.IASTloop;
-import com.paracamplus.ilp2.tme4.IASTvisitor;
+import com.paracamplus.ilp2.tme4.interfaces.IASTunless;
+import com.paracamplus.ilp2.tme4.interfaces.IASTvisitor;
 
 public class TransformUnlesstoIf implements IASTvisitor<IASTexpression, Void, EvaluationException> {
 

@@ -4,10 +4,15 @@
  * See http://mooc.paracamplus.com/ilp9
  * GPL version 3
  ***************************************************************** */
-package com.paracamplus.ilp2.tme4;
+package com.paracamplus.ilp2.tme4.interfaces;
 
 
-public interface IASTvisitor<Result, Data, Anomaly extends Throwable>
-extends com.paracamplus.ilp2.interfaces.IASTvisitor<Result, Data, Anomaly>{
-	  Result visit(IASTunless iast, Data data) throws Anomaly;
+import com.paracamplus.ilp1.interfaces.IASTexpression;
+
+
+
+public interface IASTfactory extends com.paracamplus.ilp2.interfaces.IASTfactory  {
+   
+	IASTexpression newUnlesss(IASTexpression bdy, IASTexpression cond);
+    
 }

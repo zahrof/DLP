@@ -3,8 +3,8 @@
 #include "ilp.h" 
 
 /* Global variables */ 
-ILP_Object makeVector;
-ILP_Object m;
+ILP_Object print;
+ILP_Object x;
 
 /* Global prototypes */ 
 
@@ -17,12 +17,28 @@ ILP_Object ilp_program ()
   ILP_Object ilptmp1; 
 { 
   ILP_Object ilptmp2; 
+ilptmp2 = ILP_Integer2ILP(10); 
+ilptmp1 = (x = ilptmp2); 
+} 
+{ 
   ILP_Object ilptmp3; 
-ilptmp2 = ILP_Integer2ILP(4); 
-ilptmp3 =  ILP_String2ILP("toto"); 
-ilptmp1 = ILP_make_vector(ilptmp2, ilptmp3);
+{ 
+  ILP_Object ilptmp4; 
+  ILP_Object ilptmp5; 
+ilptmp4 = x; 
+ilptmp5 = ILP_Integer2ILP(0); 
+ilptmp3 = ILP_LessThan(ilptmp4, ilptmp5);
+} 
+  if (! ILP_isEquivalentToTrue(ilptmp3 ) ) {
+{ 
+  ILP_Object ilptmp6; 
+ilptmp6 =  ILP_String2ILP("a is bigger than 0"); 
+ilptmp1 = ILP_print(ilptmp6);
 }
-return (m = ilptmp1); 
+
+  }
+}
+return ilptmp1; 
 } 
 
 } 
